@@ -1,0 +1,12 @@
+@use './functions' as *;
+
+$laptop: 1440;
+$tablet: 1023;
+$mobile: 768;
+$mobile-s: 480.98;
+
+@mixin laptop{
+  media(width <= rem($laptop)){
+
+}
+}
